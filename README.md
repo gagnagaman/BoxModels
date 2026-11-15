@@ -77,6 +77,11 @@ Rannsoknir/BoxModels/
 │   ├── rahmstorf_version2_stability.png
 │   ├── gnanadesikan_sensitivity_suite.png
 │   └── gnanadesikan_f_vs_overturning.png
+├── Docs/                                # Readable and printable notebook versions
+│   ├── BoxModelNotes.html
+│   ├── NotesForBoxModels.pdf
+│   ├── Workfile.nb.pdf
+│   └── Workfile.nb.ps
 ├── Work.nb                              # Original Mathematica notebook (local only)
 ├── .gitignore
 └── README.md                            # Documentation
@@ -84,7 +89,22 @@ Rannsoknir/BoxModels/
 
 ---
 
-## 4. How to Run
+## 4. Documentation
+
+[`Docs/`](Docs/) contains readable and printable versions of the original notebook:
+
+| File | Description |
+|------|-------------|
+| [`Docs/BoxModelNotes.html`](Docs/BoxModelNotes.html) | Self-contained HTML version with prose, input code, and all 30 figures. Opens in any web browser; no Mathematica required. |
+| [`Docs/NotesForBoxModels.pdf`](Docs/NotesForBoxModels.pdf) | 43-page PDF print of the notebook. Some mathematical symbols appear as placeholders because the original fonts were not available. |
+| [`Docs/Workfile.nb.pdf`](Docs/Workfile.nb.pdf) | 11-page A4 print produced by Mathematica 4.0 (March 2008); covers the first part of the notebook. |
+| [`Docs/Workfile.nb.ps`](Docs/Workfile.nb.ps) | Complete 34-page PostScript print of the notebook (April 2000). |
+
+See [`Docs/README.md`](Docs/README.md) for details. The original `Work.nb` is kept locally and is not committed.
+
+---
+
+## 5. How to Run
 
 ### Interactive Jupyter Notebook:
 ```bash
